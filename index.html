@@ -6,20 +6,25 @@
     <title>My Page</title>
     <style>
         body {
-            background-color: red;
-            text-align: center;
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            justify-content: center; /* Vertically center the content */
+            align-items: center; /* Horizontally center the content */
+            height: 100vh; /* Full viewport height */
             margin: 0;
-            padding: 0;
+            background-color: red; /* Optional background color */
             font-family: Arial, sans-serif;
         }
         h1 {
             font-size: 24px;
             color: white;
+            margin: 20px 0; /* Space between text and images */
         }
         img {
             display: block;
-            margin: 20px auto;
-            max-width: 100%;
+            margin: 20px 0; /* Space between images and text */
+            max-width: 100%; /* Make sure the image is responsive */
+            height: auto;
         }
     </style>
 </head>
